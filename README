@@ -1,44 +1,119 @@
-# Task Management API
+# 🗂️ Task Management System
 
-A simple and efficient RESTful API for managing tasks, built with **Django REST Framework**. This project demonstrates backend fundamentals including CRUD operations, authentication, and deployment workflows.
-
----
-
-## 🚀 Features
-- Create, read, update, and delete tasks  
-- Mark tasks as complete or pending  
-- User authentication and authorization  
-- Organized endpoints with clear documentation  
-- Scalable structure for future enhancements  
+A **Task Management System** is a simple application designed to help users create, organize, update, and track tasks efficiently. This project focuses on improving productivity by allowing users to manage their daily tasks in an organized way.
 
 ---
 
-## 🛠️ Tech Stack
-- **Backend Framework:** Django REST Framework  
-- **Database:** SQLite (default) — easily replaceable with PostgreSQL/MySQL  
-- **Authentication:** Token-based authentication  
-- **Deployment:** Configurable for cloud platforms (Heroku, Render, etc.)  
+## 📌 Features
+
+- ➕ Add new tasks  
+- ✏️ Update existing tasks  
+- ❌ Delete tasks  
+- 📋 View all tasks  
+- ✅ Mark tasks as completed  
+- 🔍 Search or filter tasks (optional)  
+
+---
+
+## 🛠️ Technologies Used
+
+*(Modify this section based on your actual project)*
+
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Python / Java / Node.js  
+- **Database:** MySQL / SQLite  
+- **Framework (if any):** Django / Flask / Express  
 
 ---
 
 ## 📂 Project Structure
-Task-Management-API/
-│── manage.py
-│── requirements.txt
-│── README.md
-│── task_api/
-│   ├── models.py
-│   ├── views.py
-│   ├── serializers.py
-│   ├── urls.py
-│   └── tests.py
 
+```
+task-management-system/
+│
+├── src/                # Source code
+├── database/           # Database files or scripts
+├── static/             # CSS, JS, images
+├── templates/          # HTML templates
+├── README.md           # Project documentation
+└── requirements.txt    # Dependencies (if applicable)
+```
 
 ---
 
 ## ⚙️ Installation & Setup
+
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Leoul-Z/Task-Management-API.git
-   cd Task-Management-API
+   git clone https://github.com/your-username/task-management-system.git
+   ```
 
+2. **Navigate to the project directory**
+   ```bash
+   cd task-management-system
+   ```
+
+3. **Install dependencies** (if applicable)
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the application**
+   ```bash
+   python main.py
+   ```
+
+---
+
+## 🧑‍💻 How It Works
+
+1. Users can add tasks with a title and description.  
+2. Tasks are stored in the database.  
+3. Users can update task status (pending/completed).  
+4. Tasks can be deleted when no longer needed.  
+
+---
+
+## 🎯 Use Cases
+
+- Personal task tracking  
+- Student assignment management  
+- Small team task organization  
+
+---
+
+## 🚀 Future Enhancements
+
+- User authentication (login/signup)  
+- Task deadlines and reminders  
+- Priority levels (High, Medium, Low)  
+- Responsive UI  
+- Cloud database integration  
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots of your project here if available)*
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is for **educational purposes**.  
+You are free to use and modify it.
+
+---
+
+## 👤 Author
+
+**Your Name**  
+- GitHub: `Leoul-z`  
+- Email: `leoulzerihun06@gmail.com`
