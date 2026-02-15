@@ -1,28 +1,27 @@
-Task Management API
-A simple and efficient RESTful API for managing tasks, built with Django REST Framework. This project demonstrates backend fundamentals including CRUD operations, authentication, and deployment workflows.
+# Task Management API
 
-🚀 Features
-Create, read, update, and delete tasks
+A simple and efficient RESTful API for managing tasks, built with **Django REST Framework**. This project demonstrates backend fundamentals including CRUD operations, authentication, and deployment workflows.
 
-Mark tasks as complete or pending
+---
 
-User authentication and authorization
+## 🚀 Features
+- Create, read, update, and delete tasks  
+- Mark tasks as complete or pending  
+- User authentication and authorization  
+- Organized endpoints with clear documentation  
+- Scalable structure for future enhancements  
 
-Organized endpoints with clear documentation
+---
 
-Scalable structure for future enhancements
+## 🛠️ Tech Stack
+- **Backend Framework:** Django REST Framework  
+- **Database:** SQLite (default) — easily replaceable with PostgreSQL/MySQL  
+- **Authentication:** Token-based authentication  
+- **Deployment:** Configurable for cloud platforms (Heroku, Render, etc.)  
 
-🛠️ Tech Stack
-Backend Framework: Django REST Framework
+---
 
-Database: SQLite (default) — easily replaceable with PostgreSQL/MySQL
-
-Authentication: Token-based authentication
-
-Deployment: Configurable for cloud platforms (Heroku, Render, etc.)
-
-📂 Project Structure
-Code
+## 📂 Project Structure
 Task-Management-API/
 │── manage.py
 │── requirements.txt
@@ -33,3 +32,13 @@ Task-Management-API/
 │   ├── serializers.py
 │   ├── urls.py
 │   └── tests.py
+
+
+---
+
+## ⚙️ Installation & Setup
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Leoul-Z/Task-Management-API.git
+   cd Task-Management-API
+
