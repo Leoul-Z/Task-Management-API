@@ -1,0 +1,35 @@
+Task Management API
+A simple and efficient RESTful API for managing tasks, built with Django REST Framework. This project demonstrates backend fundamentals including CRUD operations, authentication, and deployment workflows.
+
+🚀 Features
+Create, read, update, and delete tasks
+
+Mark tasks as complete or pending
+
+User authentication and authorization
+
+Organized endpoints with clear documentation
+
+Scalable structure for future enhancements
+
+🛠️ Tech Stack
+Backend Framework: Django REST Framework
+
+Database: SQLite (default) — easily replaceable with PostgreSQL/MySQL
+
+Authentication: Token-based authentication
+
+Deployment: Configurable for cloud platforms (Heroku, Render, etc.)
+
+📂 Project Structure
+Code
+Task-Management-API/
+│── manage.py
+│── requirements.txt
+│── README.md
+│── task_api/
+│   ├── models.py
+│   ├── views.py
+│   ├── serializers.py
+│   ├── urls.py
+│   └── tests.py
