@@ -11,35 +11,16 @@ A **Task Management System** is a simple application designed to help users crea
 - ❌ Delete tasks  
 - 📋 View all tasks  
 - ✅ Mark tasks as completed  
-- 🔍 Search or filter tasks (optional)  
+- 🔍 Search or filter tasks  
 
 ---
 
 ## 🛠️ Technologies Used
 
-*(Modify this section based on your actual project)*
-
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Python / Java / Node.js  
-- **Database:** MySQL / SQLite  
-- **Framework (if any):** Django / Flask / Express  
+- **Framework ** Django / Flask / Express  
 
 ---
 
-## 📂 Project Structure
-
-```
-task-management-system/
-│
-├── src/                # Source code
-├── database/           # Database files or scripts
-├── static/             # CSS, JS, images
-├── templates/          # HTML templates
-├── README.md           # Project documentation
-└── requirements.txt    # Dependencies (if applicable)
-```
-
----
 
 ## ⚙️ Installation & Setup
 
@@ -92,11 +73,6 @@ task-management-system/
 
 ---
 
-## 📸 Screenshots
-
-*(Add screenshots of your project here if available)*
-
----
 
 ## 🤝 Contributing
 
