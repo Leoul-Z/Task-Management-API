@@ -15,12 +15,6 @@ A **Task Management System** is a simple application designed to help users crea
 
 ---
 
-## 🛠️ Technologies Used
-
-- **Framework ** Django / Flask / Express  
-
----
-
 
 ## ⚙️ Installation & Setup
 
